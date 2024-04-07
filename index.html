@@ -3,38 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Meteo App</title>
   </head>
   <body>
-    <header>
-      <h1>Meteo App</h1>
-      <div>Sunday 07 Apr 2024, 16:39</div>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h2>Paris</h2>
-        <div>🌤️ 12°C</div>
-        <p>
-          light rain
-          <br />
-          Humidity: 68%, Wind: 2.06km/h
-        </p>
-      </div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <h1>Meteo App</h1>
+        <div>Sunday 07 Apr 2024, 16:39</div>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h2>Paris</h2>
+          <div>🌤️ 12°C</div>
+          <p>
+            light rain
+            <br />
+            Humidity: 68%, Wind: 2.06km/h
+          </p>
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/serenaCapy" target="_blank"> Sheu Yan Siow</a
-      >, is open-sourced on
-      <a href="https://github.com/serenaCapy/meteo" target="_blank"> GitHub</a>
-      and hosted on
-      <a href="https://meteo-shecodes-app24.netlify.app/" target="_blank">
-        Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/serenaCapy" target="_blank">
+          Sheu Yan Siow</a
+        >, is open-sourced on
+        <a href="https://github.com/serenaCapy/meteo" target="_blank">
+          GitHub</a
+        >
+        and hosted on
+        <a href="https://meteo-shecodes-app24.netlify.app/" target="_blank">
+          Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
